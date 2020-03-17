@@ -20,6 +20,3 @@ Route::get('/api', 'ApiController@index');
 
 //bu diyo ki "get" methoduyla /api adresine gittiğinde ApiController'ın index methodunu çalıştır
 
-Route::get("/top-movies", "MovieController@topMovies");
-
-Route::get("/movie-of-the-week", "MovieController@movieOfTheWeek");
